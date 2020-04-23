@@ -5,6 +5,7 @@
 
 import 'package:flutter/material.dart';
 
+import 'future/future-builder-app.dart';
 import 'navigation/navigation-main.dart';
 import 'navigation/navigation-named-route.dart';
 import 'navigation/navigation-push.dart';
@@ -12,6 +13,6 @@ import 'navigation/navigation-simple.dart';
 import 'navigation/navigation-with-animation.dart';
 import 'navigation/navigation-with-arguments.dart';
 
-void main() => runApp(HeroApp());
+void main() => runApp(FutureBuilderApp());
 
 
