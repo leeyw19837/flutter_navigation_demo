@@ -6,9 +6,10 @@
 import 'package:flutter/material.dart';
 
 import 'navigation/navigation-main.dart';
+import 'navigation/navigation-named-route.dart';
 import 'navigation/navigation-push.dart';
 import 'navigation/navigation-simple.dart';
 
-void main() => runApp(SimpleApp());
+void main() => runApp(NamedRouteApp());
 
 
